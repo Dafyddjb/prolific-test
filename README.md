@@ -6,7 +6,7 @@ Code and documentation for the Prolific Data Engineer assessment. The code queri
 
 The base of the pipeline is written with Polars as the dataframe engine for manipulation. To install the requirements use the following:
 ```bash
-$ pip install -r requirements.txt
+$ poetry install
 ```
 
 An API key can be generated using a free tiered account through [Polygon](https://polygon.io). Then define the environment variable for the pipeline:
